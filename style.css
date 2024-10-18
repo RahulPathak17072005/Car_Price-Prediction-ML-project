@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font */
+    background-color: #eaecef; /* Lighter background */
+    margin: 0;
+}
+
+
+
+.header {
+    text-align: center;
+    font-size: 28px; /* Increased font size */
+    color: #2c3e50; /* Darker text color */
+    margin-bottom: 25px; /* Increased margin */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.form-container {
+    background: #3434344b; /* White background */
+    padding: 30px; /* Increased padding */
+    border-radius: 10px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    max-width: 90%; /* Increased max width */
+    margin: 0 auto; /* Centering */
+}
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px; 
+    color: #34495e; 
+    font-weight: bold; 
+}
+
+.form-group select{
+    border: 2px solid black;
+}
+
+.form-group input[type="range"] {
+    width: 100%;
+    
+}
+
+.form-group select,
+.form-group input[type="range"] {
+    padding: 10px; /* Increased padding */
+    border: 1px solid #bdc3c7; /* Softer border color */
+    border-radius: 6px; /* More rounded corners */
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in width */
+    font-size: 16px; /* Larger font size for inputs */
+}
+
+.btn {
+    background-color: #3498db; /* Blue button */
+    color: white;
+    padding: 12px 16px; /* Increased padding */
+    border: none;
+    border-radius: 6px; /* More rounded corners */
+    cursor: pointer;
+    width: 100%;
+    margin-top: 12px; /* Increased margin */
+    font-size: 16px; /* Larger font size for button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.result {
+    text-align: center;
+    margin-top: 25px; /* Increased margin */
+    font-size: 20px; /* Larger font size */
+    color: #444;
+}
+
+.result {
+    margin-top: 25px; /* Increased margin */
+    padding: 20px; /* Increased padding */
+    background-color: #f9f9f9; /* Softer background */
+    border: 1px solid #ccc; /* Softer border */
+    border-radius: 8px; /* More rounded corners */
+    font-size: 1.4rem; /* Larger font size */
+    text-align: center;
+    color: #333;
+    width: 100%;
+    max-width: 450px; /* Slightly wider result box */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+}
+
+.result.error {
+    color: #c0392b; /* Dark red for errors */
+    background-color: #f2dede; /* Light red background for errors */
+    border-color: #ebccd1; /* Soft border color */
+}
+
+.result.success {
+    color: #27ae60; /* Dark green for success */
+    background-color: #dff0d8; /* Light green background for success */
+    border-color: #d6e9c6; /* Soft border color */
+}
+.buy-item {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buy-item h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.buy-item button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-item button:hover {
+    background-color: #45a049;
+}
+
+.buy-item button h1 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}

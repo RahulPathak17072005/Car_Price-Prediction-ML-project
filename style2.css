@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000; /* Black background for the navbar */
+    padding: 10px 20px; /* Padding around the navbar */
+    position: relative;
+    z-index: 20;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px; /* Width of the logo */
+    height: 40px; /* Height of the logo */
+    background-color: #fff; /* Placeholder for logo */
+    border-radius: 50%; /* Circular logo */
+}
+
+.navbar div {
+    display: flex; /* Display links in a row */
+    gap: 15px; /* Space between links */
+}
+
+a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 15px; /* Padding around links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten background on hover */
+}
+
+
+
+section {
+    position: relative;
+    z-index: 10;
+    margin-top: -15vh;
+    height: 107vh; /* 80% of viewport height */
+    width: 100%; /* Full width */
+    background: url('https://wallpapercave.com/wp/wp13425069.jpg') no-repeat ;
+    background-size: cover; 
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column layout */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    color: black; 
+}
+
+section a{
+    color: #000;
+    background-color: #ffffff86;
+    /* border: 2px solid black; */
+
+}
+
+section h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logo {
+    width: 40px; /* Width of the logo */
+    height: 40px; /* Height of the logo */
+    background-color: #fff; /* Placeholder for logo */
+    border-radius: 50%; /* Circular logo */
+}
+
+.logo img{
+    border-radius: 50%;
+    object-fit: contain;
+}

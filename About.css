@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaecef;
+    margin: 0;
+}
+
+header {
+    background-color: #000; /* Black background for the navbar */
+    padding: 10px 20px; /* Padding around the navbar */
+}
+
+
+
+
+
+
+.about-section {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-section a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px; /* Width of the logo */
+    height: 40px; /* Height of the logo */
+    background-color: #fff; /* Placeholder for logo */
+    border-radius: 50%; /* Circular logo */
+}
+
+.logo img{
+    border-radius: 50%;
+    object-fit: contain;
+}
+.navbar div {
+    display: flex; /* Display links in a row */
+    gap: 15px; /* Space between links */
+}
+
+a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 15px; /* Padding around links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten background on hover */
+}
